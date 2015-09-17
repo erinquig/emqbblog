@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Fist Post!"
 date:   2015-09-15 20:44:05
 categories: jekyll update
 ---

@@ -26,6 +26,12 @@ nav {
 }
 
 div.mainPic img {
-	height: 700px;
+	height: 400px;
+
 }
 
+
+h1 {
+	color: #2a4d69;
+	background-color: #e7eff6;
+}

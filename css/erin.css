@@ -135,3 +135,34 @@ embed.resume {
 div.resumePage {
 	background-color: #e7eff6;
 }
+
+
+div.picDescription {
+	padding: 10px;
+}
+
+.circle img {
+	border-radius: 50%;
+	border: 8px solid #2a4d69;
+	max-height: 300px;
+}
+
+.picDescription {
+	text-align: center;
+
+}
+
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #2a4d69;
+	background-color: #e7eff6;
+}
+
+.circle {
+	border: 4px solid #2a4d69;
+	margin: 8px;
+	border-radius: 3px;
+	background-color: white;
+}

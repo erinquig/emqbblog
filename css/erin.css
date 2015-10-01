@@ -78,9 +78,16 @@ footer p {
 	float: right;
 }
 
+div.projectPage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+
+
 div.project {
 	margin: 20px;
-	width: 600px;
+	width: 575px;
 	border-style: solid;
 	border-width: 5px;
 	border-radius: 3px;

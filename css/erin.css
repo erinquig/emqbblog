@@ -2,6 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lora', serif;
+    	background-color: #e7eff6;
+	background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 13px, 29px, 37px, 53px;
 }
 
 ul {
@@ -45,6 +51,7 @@ h1 {
 	font-size: 55px;
 	display: inline;
 	margin: auto 0 auto 25px;
+	padding: 3px;
 }
 
 .social a {
@@ -55,8 +62,8 @@ h1 {
 
 .nameBar{
 	color: #2a4d69;
-	background-color: #e7eff6;
 	height: 140px;
+
 }
 
 .social {
@@ -65,7 +72,6 @@ h1 {
 
 footer {
 	color: #2a4d69;
-	background-color: #e7eff6;
 }
 
 footer p {
@@ -82,18 +88,21 @@ div.projectPage {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	background-color: #e7eff6;
 	}
 
 
 div.project {
 	margin: 20px;
-	width: 575px;
-	border-style: solid;
-	border-width: 5px;
-	border-radius: 3px;
-	border-color: #2a4d69;
+	width: 400px;
 	color: #2a4d69;
 	display: inline-block;
+	box-shadow: 8px 8px 15px;
+}
+
+.projectHeader {
+	background-color: white;
+	margin-bottom: -18px;
 }
 
 div.projectTitle {
@@ -112,7 +121,7 @@ div.projectTitle {
 }
 
 div.projectDescription p {
-	padding: 0 0 0 10px;
+	padding: 0 0 10px 10px;
 }
 
 .projectSite {
@@ -161,8 +170,11 @@ div.picDescription {
 }
 
 .circle {
-	border: 4px solid #2a4d69;
+	border: 4px solid white;
 	margin: 8px;
 	border-radius: 3px;
 	background-color: white;
+	box-shadow: 8px 8px 15px;
 }
+
+#2a4d69

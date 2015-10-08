@@ -48,10 +48,11 @@ div.mainPic img {
 
 h1 {
 	font-family: 'Architects Daughter', cursive;
-	font-size: 55px;
+	font-size: 75px;
 	display: inline;
 	margin: auto 0 auto 25px;
 	padding: 3px;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .social a {
@@ -62,7 +63,7 @@ h1 {
 
 .nameBar{
 	color: #2a4d69;
-	height: 140px;
+	height: 100px;
 
 }
 
@@ -94,7 +95,7 @@ div.projectPage {
 
 div.project {
 	margin: 20px;
-	width: 400px;
+	width: 525px;
 	color: #2a4d69;
 	display: inline-block;
 	box-shadow: 8px 8px 15px;
@@ -134,7 +135,7 @@ div.projectDescription p {
 
 embed.resume {
 	height: 700px;
-	width: 75%;
+	width: 80%;
 	margin-bottom: 20px;
 	padding-top: 30px;
 	display: block;
@@ -152,8 +153,9 @@ div.picDescription {
 
 .circle img {
 	border-radius: 50%;
-	border: 8px solid #2a4d69;
 	max-height: 300px;
+	box-shadow: 8px 8px 15px;
+	margin: 5px;
 }
 
 .picDescription {
@@ -177,4 +179,6 @@ div.picDescription {
 	box-shadow: 8px 8px 15px;
 }
 
-#2a4d69
+embed { 
+    
+}
